@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.triggers.SCMTrigger_-SCMTriggerCause/>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction>
+      <build class="build" reference="../../.."/>
+    </hudson.triggers.SCMTrigger_-BuildAction>
+    <hudson.scm.SVNRevisionState>
+      <revisions/>
+    </hudson.scm.SVNRevisionState>
+  </actions>
+  <number>4</number>
+  <result>FAILURE</result>
+  <duration>11</duration>
+  <charset>GBK</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\Hudson\jobs\MeetingClient\workspace</workspace>
+  <hudsonVersion>2.1.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits/>
+</build>

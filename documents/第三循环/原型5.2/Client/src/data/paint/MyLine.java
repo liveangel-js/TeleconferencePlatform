@@ -1,0 +1,14 @@
+package data.paint;
+
+import java.awt.Graphics2D;
+
+public class MyLine extends ShapeModel{
+    public MyLine() {
+    }
+
+	@Override
+	public void show(Graphics2D g) {
+		// TODO Auto-generated method stub
+		g.drawLine(startP.x, startP.y, endP.x, endP.y);
+	}
+}

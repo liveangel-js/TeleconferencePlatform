@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<project name="MeetingClient" default="test" basedir="."> 
+
+       <!--配置基本属性--> 
+       <property name="src" value="src"/> 
+       <property name="build" value="build"/> 
+       <property name="lib" value="lib" /> 
+       <property name="dist" value="dist"/> 
+       <property name="classpath" location="${build}"/> 
+      
+       <!--配置测试报告的属性--> 
+       <property name="report"   value="report"/> 
+       <property name="report.xml" value="${report}/junit/xml"/> 
+       <property name="report.html" value="${report}/junit/html"/> 
+
+       <!--配置运行时classpath--> 
+       <path id="classpath.run"> 
+              <pathelement path="${classpath}"/> 
+              <fileset dir="${lib}"> 
+                     <include name="*.jar"/> 
+              </fileset> 
+       </path> 
+
+       <!--配置测试时classpath--> 
+       <path id="classpath.test"> 
+              <path refid="classpath.run"/> 
+              <path location="${dist}/lib/test-${DSTAMP}.jar"/> 
+       </path> 
+      
+       <!--任务初始化--> 
+       <target name="init" > 
+              <tstamp/> 
+              <delete dir="${build}"/> 
+              <delete dir="${report}"/> 
+              <delete dir="${dist}"/> 
+              <mkdir dir="${build}"/> 
+       </target> 
+      
+       <!--配置编译任务--> 
+       <target name="compile" depends="init"> 
+              <javac srcdir="${src}" destdir="${build}" includeantruntime="on"> 
+              <classpath refid="classpath.run" />
+              </javac> 
+       </target> 
+      
+       <!--配置打包任务--> 
+       <target name="dist" depends="compile"> 
+              <mkdir dir="${dist}/lib"/> 
+              <jar jarfile="${dist}/lib/test-${DSTAMP}.jar" basedir="${build}"/> 
+       </target> 
+      
+       <!--配置运行任务--> 
+       <target name="run" depends="compile, dist"> 
+        <java classname="com.test.TestCalculator"> 
+            <classpath> 
+                     <path refid="classpath.run"/> 
+              </classpath> 
+        </java> 
+       </target> 
+      
+       <!--配置JUnit测试，打印测试结果--> 
+       <target name="test" depends="compile, dist"> 
+              <mkdir dir="${report.xml}"/> 
+              <mkdir dir="${report.html}"/> 
+              <junit printsummary="yes" haltonfailure="no"> 
+                     <classpath refid="classpath.run"/> 
+                     <formatter type="xml"/> 
+                     <batchtest fork="yes" todir="${report.xml}"> 
+                            <fileset dir="${src}" includes="**/Test*.java"/> 
+                     </batchtest> 
+              </junit> 
+              <junitreport todir="${report.html}"> 
+                     <fileset dir="${report.xml}"> 
+                            <include name="*.xml"/> 
+                     </fileset> 
+                     <report format="frames" todir="${report.html}"/> 
+              </junitreport> 
+       </target> 
+
+</project>

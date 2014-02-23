@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result>
+  <suites>
+    <suite>
+      <file>D:\Hudson\jobs\MeetingSystem\workspace\report\junit\xml\TEST-sql.junit.test.TestBoardElementDataInterface.xml</file>
+      <name>sql.junit.test.TestBoardElementDataInterface</name>
+      <stdout>数据库连接成功
+1
+插入新白板:817
+插入白板单元ID430java.util.ArrayList
+插入白板单元ID431java.util.ArrayList
+插入白板单元ID432java.util.ArrayList
+删除白板1上单元432
+1
+插入新白板:734
+已删除白板ID734
+白板：734上没有图元，数量为0
+</stdout>
+      <stderr></stderr>
+      <duration>1.35</duration>
+      <timestamp>2012-06-07T10:26:52</timestamp>
+      <cases>
+        <case>
+          <duration>0.925</duration>
+          <className>sql.junit.test.TestBoardElementDataInterface</className>
+          <testName>testNewBoard</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.231</duration>
+          <className>sql.junit.test.TestBoardElementDataInterface</className>
+          <testName>testwriteNewImgeData</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.067</duration>
+          <className>sql.junit.test.TestBoardElementDataInterface</className>
+          <testName>testReadImageData</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.037</duration>
+          <className>sql.junit.test.TestBoardElementDataInterface</className>
+          <testName>testGetNewestID</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0030</duration>
+          <className>sql.junit.test.TestBoardElementDataInterface</className>
+          <testName>testGetUpdateList</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.034</duration>
+          <className>sql.junit.test.TestBoardElementDataInterface</className>
+          <testName>testDeleteImageData</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0020</duration>
+          <className>sql.junit.test.TestBoardElementDataInterface</className>
+          <testName>testGetBoardIDList</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.051</duration>
+          <className>sql.junit.test.TestBoardElementDataInterface</className>
+          <testName>testDeleteBoard</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>D:\Hudson\jobs\MeetingSystem\workspace\report\junit\xml\TEST-sql.junit.test.TestChatWriterInterface.xml</file>
+      <name>sql.junit.test.TestChatWriterInterface</name>
+      <stdout></stdout>
+      <stderr></stderr>
+      <duration>0.0010</duration>
+      <timestamp>2012-06-07T10:26:54</timestamp>
+      <cases>
+        <case>
+          <duration>0.0010</duration>
+          <className>sql.junit.test.TestChatWriterInterface</className>
+          <testName>testWriteRecord</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>D:\Hudson\jobs\MeetingSystem\workspace\report\junit\xml\TEST-sql.junit.test.TestMeetingDataInterface.xml</file>
+      <name>sql.junit.test.TestMeetingDataInterface</name>
+      <stdout>数据库连接成功
+插入新会议成功
+会议1已结束
+查询会议ID8
+查询会议ID8
+</stdout>
+      <stderr></stderr>
+      <duration>0.579</duration>
+      <timestamp>2012-06-07T10:26:54</timestamp>
+      <cases>
+        <case>
+          <duration>0.507</duration>
+          <className>sql.junit.test.TestMeetingDataInterface</className>
+          <testName>testInsertMeeting</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.069</duration>
+          <className>sql.junit.test.TestMeetingDataInterface</className>
+          <testName>testupdateMeeting</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0010</duration>
+          <className>sql.junit.test.TestMeetingDataInterface</className>
+          <testName>testgetLastMeetingID</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0020</duration>
+          <className>sql.junit.test.TestMeetingDataInterface</className>
+          <testName>testcheckLastMeeting</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>D:\Hudson\jobs\MeetingSystem\workspace\report\junit\xml\TEST-sql.junit.test.TestUserIndentifyInterface.xml</file>
+      <name>sql.junit.test.TestUserIndentifyInterface</name>
+      <stdout>数据库连接成功
+不存在此用户
+</stdout>
+      <stderr></stderr>
+      <duration>0.487</duration>
+      <timestamp>2012-06-07T10:26:56</timestamp>
+      <cases>
+        <case>
+          <duration>0.487</duration>
+          <className>sql.junit.test.TestUserIndentifyInterface</className>
+          <testName>testcheckUser</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>junit.framework.AssertionFailedError: expected:&lt;1&gt; but was:&lt;-1&gt;
+	at sql.junit.test.TestUserIndentifyInterface.testcheckUser(Unknown Source)
+</errorStackTrace>
+          <errorDetails>expected:&lt;1&gt; but was:&lt;-1&gt;</errorDetails>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>2.417</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

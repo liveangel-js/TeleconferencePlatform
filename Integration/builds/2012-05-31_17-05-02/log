@@ -1,0 +1,33 @@
+Started by an SCM change
+Checking out a fresh workspace because there's no workspace at D:\Hudson\jobs\MeetingClient\workspace
+Cleaning workspace D:\Hudson\jobs\MeetingClient\workspace
+Checking out  revision: 2012-5-31 17:05:02 depth:infinity ignoreExternals: false
+ERROR: Failed to check out 
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0morg.tmatesoft.svn.core.SVNException: svn: Malformed URL ''
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:64)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:51)
+	at org.tmatesoft.svn.core.SVNURL.<init>(SVNURL.java:221)
+	at org.tmatesoft.svn.core.SVNURL.parseURIEncoded(SVNURL.java:125)
+	at hudson.scm.SubversionSCM$ModuleLocation.getSVNURL(SubversionSCM.java:2309)
+	at hudson.scm.subversion.CheckoutUpdater$UpdateTaskImpl.perform(CheckoutUpdater.java:99)
+	at hudson.scm.subversion.WorkspaceUpdater$UpdateTask.delegateTo(WorkspaceUpdater.java:149)
+	at hudson.scm.subversion.WorkspaceUpdater$UpdateTask.delegateTo(WorkspaceUpdater.java:157)
+	at hudson.scm.subversion.UpdateUpdater$TaskImpl.perform(UpdateUpdater.java:114)
+	at hudson.scm.subversion.WorkspaceUpdater$UpdateTask.delegateTo(WorkspaceUpdater.java:149)
+	at hudson.scm.SubversionSCM$CheckOutTask.perform(SubversionSCM.java:809)
+	at hudson.scm.SubversionSCM$CheckOutTask.invoke(SubversionSCM.java:790)
+	at hudson.scm.SubversionSCM$CheckOutTask.invoke(SubversionSCM.java:771)
+	at hudson.FilePath.act(FilePath.java:758)
+	at hudson.FilePath.act(FilePath.java:740)
+	at hudson.scm.SubversionSCM.checkout(SubversionSCM.java:763)
+	at hudson.scm.SubversionSCM.checkout(SubversionSCM.java:706)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1218)
+	at hudson.model.AbstractBuild$AbstractRunner.checkout(AbstractBuild.java:507)
+	at hudson.model.AbstractBuild$AbstractRunner.run(AbstractBuild.java:424)
+	at hudson.model.Run.run(Run.java:1367)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:145)
+Recording test results
+[DEBUG] Skipping watched dependency update for build: MeetingClient #14 due to result: FAILURE
+Finished: FAILURE

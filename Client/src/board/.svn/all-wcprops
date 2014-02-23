@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/team26/!svn/ver/707/trunk/Client/src/board
+END
+MyActorShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyActorShape.java
+END
+MyPensil.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyPensil.java
+END
+MyStartState.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyStartState.java
+END
+MyBlackCircle.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyBlackCircle.java
+END
+MyCompoShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyCompoShape.java
+END
+MyGeneShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyGeneShape.java
+END
+ImgData.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/team26/!svn/ver/336/trunk/Client/src/board/ImgData.java
+END
+MyAggrShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyAggrShape.java
+END
+MyOval.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyOval.java
+END
+MyRectangle.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyRectangle.java
+END
+MyFont.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyFont.java
+END
+MyNodeShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyNodeShape.java
+END
+MyEndState.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/team26/!svn/ver/661/trunk/Client/src/board/MyEndState.java
+END
+MyPackageShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyPackageShape.java
+END
+MyRoundRectangle.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyRoundRectangle.java
+END
+PaintBoard.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/team26/!svn/ver/707/trunk/Client/src/board/PaintBoard.java
+END
+MyTimeShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyTimeShape.java
+END
+MyEraser.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyEraser.java
+END
+MyLin.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/team26/!svn/ver/696/trunk/Client/src/board/MyLin.java
+END
+MyUsageShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyUsageShape.java
+END
+MyClassShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyClassShape.java
+END
+MyAssoShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyAssoShape.java
+END
+MyLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/team26/!svn/ver/623/trunk/Client/src/board/MyLine.java
+END

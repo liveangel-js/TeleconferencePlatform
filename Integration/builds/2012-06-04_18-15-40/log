@@ -1,0 +1,44 @@
+Started by an SCM change
+Updating http://202.119.48.42/svn/team26/trunk/Server revision: 2012-6-4 18:15:40 depth:infinity ignoreExternals: false
+A         src\board\MyLin.java
+At revision 666
+[workspace] $ cmd.exe /C '"D:\ANT\bin\ant.bat -file build.xml && exit %%ERRORLEVEL%%"'
+Buildfile: D:\Hudson\jobs\MeetingSystem\workspace\build.xml
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minit:
+   [delete] Deleting directory D:\Hudson\jobs\MeetingSystem\workspace\build
+   [delete] Deleting directory D:\Hudson\jobs\MeetingSystem\workspace\report
+   [delete] Deleting directory D:\Hudson\jobs\MeetingSystem\workspace\dist
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingSystem\workspace\build
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcompile:
+    [javac] Compiling 86 source files to D:\Hudson\jobs\MeetingSystem\workspace\build
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mdist:
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingSystem\workspace\dist\lib
+      [jar] Building jar: D:\Hudson\jobs\MeetingSystem\workspace\dist\lib\test-20120604.jar
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mtest:
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingSystem\workspace\report\junit\xml
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingSystem\workspace\report\junit\html
+    [junit] Running sql.junit.test.TestBoardElementDataInterface
+    [junit] Tests run: 8, Failures: 1, Errors: 7, Time elapsed: 0.358 sec
+    [junit] Test sql.junit.test.TestBoardElementDataInterface FAILED
+    [junit] Running sql.junit.test.TestChatWriterInterface
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.075 sec
+    [junit] Running sql.junit.test.TestMeetingDataInterface
+    [junit] Tests run: 4, Failures: 0, Errors: 4, Time elapsed: 0.295 sec
+    [junit] Test sql.junit.test.TestMeetingDataInterface FAILED
+    [junit] Running sql.junit.test.TestUserIndentifyInterface
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0.279 sec
+    [junit] Test sql.junit.test.TestUserIndentifyInterface FAILED
+[junitreport] Processing D:\Hudson\jobs\MeetingSystem\workspace\report\junit\html\TESTS-TestSuites.xml to C:\Users\ADMINI~1\AppData\Local\Temp\null820372024
+[junitreport] Loading stylesheet jar:file:/D:/ANT/lib/ant-junit.jar!/org/apache/tools/ant/taskdefs/optional/junit/xsl/junit-frames.xsl
+[junitreport] Transform time: 424ms
+[junitreport] Deleting: C:\Users\ADMINI~1\AppData\Local\Temp\null820372024
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 6 seconds
+Recording test results
+[DEBUG] Skipping watched dependency update; build not configured with trigger: MeetingSystem #49
+Finished: UNSTABLE

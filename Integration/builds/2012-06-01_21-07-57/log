@@ -1,0 +1,7 @@
+Started by an SCM change
+Updating http://202.119.48.42/svn/team26 revision: 2012-6-1 21:07:57 depth:infinity ignoreExternals: false
+At revision 647
+no change for http://202.119.48.42/svn/team26 since the previous build
+FATAL: Unable to find build script at D:\Hudson\jobs\MeetingClient\workspace\build.xml
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0m[DEBUG] Skipping watched dependency update for build: MeetingClient #42 due to result: FAILURE
+Finished: FAILURE

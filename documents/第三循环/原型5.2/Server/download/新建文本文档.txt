@@ -1,0 +1,16 @@
+文件ID
+会议ID
+文件名
+文件长度
+修改人
+修改时间
+
+
+FileID int not null auto_increment,
+	MeetingID int not null,
+	FileName varchar(60) not null,
+	FileData MediumBlob not null,
+	FileLength int not null,
+	ModifyTime DateTime not null,
+	LoaderUserName varchar(30) not null default 'system',
+	primary key(FileID)

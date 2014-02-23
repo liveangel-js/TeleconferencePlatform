@@ -1,0 +1,67 @@
+Started by an SCM change
+Updating http://202.119.48.42/svn/team26/trunk/Client revision: 2012-6-1 18:24:09 depth:infinity ignoreExternals: false
+U         src\board\MyActorShape.java
+U         src\board\MyPensil.java
+U         src\board\MyStartState.java
+U         src\board\MyBlackCircle.java
+U         src\board\MyCompoShape.java
+U         src\board\MyGeneShape.java
+U         src\board\MyAggrShape.java
+U         src\board\MyOval.java
+U         src\board\MyRectangle.java
+U         src\board\MyFont.java
+U         src\board\MyNodeShape.java
+U         src\board\MyEndState.java
+U         src\board\MyRoundRectangle.java
+U         src\board\MyPackageShape.java
+U         src\board\PaintBoard.java
+U         src\board\MyTimeShape.java
+U         src\board\MyEraser.java
+U         src\board\MyUsageShape.java
+U         src\board\MyClassShape.java
+U         src\board\MyAssoShape.java
+U         src\board\MyLine.java
+U         src\data\Message.java
+U         src\view\ChatPanel.java
+U         src\view\MainFrame.java
+U         src\view\MainFrame.form
+U         src\view\VoiceSetting.java
+U         src\view\AboutFrame.java
+U         src\view\VoiceSetting.form
+U         src\view\Logging.java
+U         src\view\AboutFrame.form
+U         src\view\Logging.form
+U         src\logic\VoiceClient.java
+U         src\logic\implement\ChatLogicImp.java
+U         src\logic\Record.java
+At revision 641
+[workspace] $ cmd.exe /C '"D:\ANT\bin\ant.bat -file build.xml && exit %%ERRORLEVEL%%"'
+Buildfile: D:\Hudson\jobs\MeetingClient\workspace\build.xml
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minit:
+   [delete] Deleting directory D:\Hudson\jobs\MeetingClient\workspace\build
+   [delete] Deleting directory D:\Hudson\jobs\MeetingClient\workspace\report
+   [delete] Deleting directory D:\Hudson\jobs\MeetingClient\workspace\dist
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingClient\workspace\build
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcompile:
+    [javac] Compiling 61 source files to D:\Hudson\jobs\MeetingClient\workspace\build
+    [javac] ◊¢“‚£∫ƒ≥–© ‰»ÎŒƒº˛ π”√ªÚ∏≤∏«¡À“—π˝ ±µƒ API°£
+    [javac] ◊¢“‚£∫“™¡ÀΩ‚œÍœ∏–≈œ¢£¨«Î π”√ -Xlint:deprecation ÷ÿ–¬±‡“Î°£
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mdist:
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingClient\workspace\dist\lib
+      [jar] Building jar: D:\Hudson\jobs\MeetingClient\workspace\dist\lib\test-20120601.jar
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mtest:
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingClient\workspace\report\junit\xml
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingClient\workspace\report\junit\html
+[junitreport] Processing D:\Hudson\jobs\MeetingClient\workspace\report\junit\html\TESTS-TestSuites.xml to C:\Users\ADMINI~1\AppData\Local\Temp\null1745470351
+[junitreport] Loading stylesheet jar:file:/D:/ANT/lib/ant-junit.jar!/org/apache/tools/ant/taskdefs/optional/junit/xsl/junit-frames.xsl
+[junitreport] Transform time: 1863ms
+[junitreport] Deleting: C:\Users\ADMINI~1\AppData\Local\Temp\null1745470351
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 16 seconds
+[DEBUG] Skipping watched dependency update; build not configured with trigger: MeetingClient #31
+Finished: SUCCESS

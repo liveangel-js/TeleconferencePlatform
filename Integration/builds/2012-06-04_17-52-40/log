@@ -1,0 +1,9 @@
+Started by an SCM change
+Updating http://202.119.48.42/svn/team26 revision: 2012-6-4 17:52:40 depth:infinity ignoreExternals: false
+U         trunk\Server\src\board\MyEndState.java
+U         trunk\Client\src\board\MyEndState.java
+A         trunk\Client\src\board\MyLin.java
+At revision 663
+FATAL: Unable to find build script at D:\Hudson\jobs\MeetingClient\workspace\build.xml
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0m[DEBUG] Skipping watched dependency update for build: MeetingClient #44 due to result: FAILURE
+Finished: FAILURE

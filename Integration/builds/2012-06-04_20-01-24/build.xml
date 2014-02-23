@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserCause>
+          <authenticationName>anonymous</authenticationName>
+        </hudson.model.Cause_-UserCause>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.scm.SubversionTagAction>
+      <build class="build" reference="../../.."/>
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <no-comparator/>
+        <entry>
+          <hudson.scm.SubversionSCM_-SvnInfo>
+            <url>http://202.119.48.42/svn/team26/trunk/Server</url>
+            <revision>675</revision>
+          </hudson.scm.SubversionSCM_-SvnInfo>
+          <list/>
+        </entry>
+      </tags>
+    </hudson.scm.SubversionTagAction>
+    <hudson.scm.SVNRevisionState>
+      <revisions>
+        <entry>
+          <string>http://202.119.48.42/svn/team26/trunk/Server</string>
+          <long>675</long>
+        </entry>
+      </revisions>
+    </hudson.scm.SVNRevisionState>
+  </actions>
+  <number>56</number>
+  <result>FAILURE</result>
+  <duration>1391</duration>
+  <charset>GBK</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\Hudson\jobs\MeetingSystem\workspace</workspace>
+  <hudsonVersion>2.1.1</hudsonVersion>
+  <scm class="hudson.scm.SubversionChangeLogParser"/>
+  <culprits>
+    <string>101250057</string>
+    <string>101250108</string>
+    <string>101250056</string>
+    <string>101250033</string>
+    <string>101250020</string>
+  </culprits>
+</build>

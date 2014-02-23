@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/team26/!svn/ver/725/trunk/Client/src/logic
+END
+MeetingManage.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/team26/!svn/ver/172/trunk/Client/src/logic/MeetingManage.java
+END
+voiceClientTry.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/team26/!svn/ver/251/trunk/Client/src/logic/voiceClientTry.java
+END
+VoiceClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/625/trunk/Client/src/logic/VoiceClient.java
+END
+LoginLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/team26/!svn/ver/172/trunk/Client/src/logic/LoginLogic.java
+END
+Playback.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/team26/!svn/ver/502/trunk/Client/src/logic/Playback.java
+END
+OrderClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/521/trunk/Client/src/logic/OrderClient.java
+END
+OrderChoose.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/405/trunk/Client/src/logic/OrderChoose.java
+END
+Setting.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/team26/!svn/ver/394/trunk/Client/src/logic/Setting.java
+END
+AudioInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/team26/!svn/ver/502/trunk/Client/src/logic/AudioInfo.java
+END
+MeetingReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/team26/!svn/ver/673/trunk/Client/src/logic/MeetingReceiver.java
+END
+Record.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/team26/!svn/ver/625/trunk/Client/src/logic/Record.java
+END

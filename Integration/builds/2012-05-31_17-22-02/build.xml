@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.triggers.SCMTrigger_-SCMTriggerCause/>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction>
+      <build class="build" reference="../../.."/>
+    </hudson.triggers.SCMTrigger_-BuildAction>
+    <hudson.scm.SubversionTagAction>
+      <build class="build" reference="../../.."/>
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <no-comparator/>
+        <entry>
+          <hudson.scm.SubversionSCM_-SvnInfo>
+            <url>http://202.119.48.42/svn/team26/trunk/Client</url>
+            <revision>607</revision>
+          </hudson.scm.SubversionSCM_-SvnInfo>
+          <list/>
+        </entry>
+      </tags>
+    </hudson.scm.SubversionTagAction>
+    <hudson.scm.SVNRevisionState>
+      <revisions>
+        <entry>
+          <string>http://202.119.48.42/svn/team26/trunk/Client</string>
+          <long>607</long>
+        </entry>
+      </revisions>
+    </hudson.scm.SVNRevisionState>
+  </actions>
+  <number>24</number>
+  <result>FAILURE</result>
+  <duration>3087</duration>
+  <charset>GBK</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\Hudson\jobs\MeetingClient\workspace</workspace>
+  <hudsonVersion>2.1.1</hudsonVersion>
+  <scm class="hudson.scm.SubversionChangeLogParser"/>
+  <culprits/>
+</build>

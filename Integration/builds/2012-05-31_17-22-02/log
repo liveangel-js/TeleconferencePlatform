@@ -1,0 +1,70 @@
+Started by an SCM change
+Updating http://202.119.48.42/svn/team26/trunk/Client revision: 2012-5-31 17:22:02 depth:infinity ignoreExternals: false
+At revision 607
+WARNING: clock of the subversion server appears to be out of sync. This can result in inconsistent check out behavior.
+no change for http://202.119.48.42/svn/team26/trunk/Client since the previous build
+[workspace] $ cmd.exe /C '"D:\ANT\bin\ant.bat -file build.xml && exit %%ERRORLEVEL%%"'
+Buildfile: D:\Hudson\jobs\MeetingClient\workspace\build.xml
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minit:
+   [delete] Deleting directory D:\Hudson\jobs\MeetingClient\workspace\build
+   [delete] Deleting directory D:\Hudson\jobs\MeetingClient\workspace\dist
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingClient\workspace\build
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcompile:
+    [javac] Compiling 60 source files to D:\Hudson\jobs\MeetingClient\workspace\build
+    [javac] ◊¢“‚£∫ƒ≥–© ‰»ÎŒƒº˛ π”√ªÚ∏≤∏«¡À“—π˝ ±µƒ API°£
+    [javac] ◊¢“‚£∫“™¡ÀΩ‚œÍœ∏–≈œ¢£¨«Î π”√ -Xlint:deprecation ÷ÿ–¬±‡“Î°£
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mdist:
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingClient\workspace\dist\lib
+      [jar] Building jar: D:\Hudson\jobs\MeetingClient\workspace\dist\lib\test-20120531.jar
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 2 seconds
+Recording test results
+ERROR: Failed to archive test reports
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mhudson.util.IOException2: Failed to read D:\Hudson\jobs\MeetingClient\workspace\build\board\ImgData.class
+Is this really a JUnit report file? Your configuration must be matching too many files
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:205)
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:155)
+	at hudson.tasks.junit.TestResult.<init>(TestResult.java:118)
+	at hudson.tasks.junit.JUnitParser$ParseResultCallable.invoke(JUnitParser.java:114)
+	at hudson.tasks.junit.JUnitParser$ParseResultCallable.invoke(JUnitParser.java:87)
+	at hudson.FilePath.act(FilePath.java:758)
+	at hudson.FilePath.act(FilePath.java:740)
+	at hudson.tasks.junit.JUnitParser.parse(JUnitParser.java:83)
+	at hudson.tasks.junit.JUnitResultArchiver.parse(JUnitResultArchiver.java:132)
+	at hudson.tasks.junit.JUnitResultArchiver.perform(JUnitResultArchiver.java:144)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractRunner.perform(AbstractBuild.java:630)
+	at hudson.model.AbstractBuild$AbstractRunner.performAllBuildSteps(AbstractBuild.java:608)
+	at hudson.model.AbstractBuild$AbstractRunner.performAllBuildSteps(AbstractBuild.java:584)
+	at hudson.model.Build$RunnerImpl.post2(Build.java:159)
+	at hudson.model.AbstractBuild$AbstractRunner.post(AbstractBuild.java:553)
+	at hudson.model.Run.run(Run.java:1391)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:145)
+Caused by: org.dom4j.DocumentException: Invalid byte 2 of 2-byte UTF-8 sequence. Nested exception: Invalid byte 2 of 2-byte UTF-8 sequence.
+	at org.dom4j.io.SAXReader.read(SAXReader.java:484)
+	at org.dom4j.io.SAXReader.read(SAXReader.java:264)
+	at hudson.tasks.junit.SuiteResult.parse(SuiteResult.java:98)
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:199)
+	... 19 more
+Caused by: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 2 of 2-byte UTF-8 sequence.
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(UTF8Reader.java:684)
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(UTF8Reader.java:369)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1742)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.arrangeCapacity(XMLEntityScanner.java:1619)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.skipString(XMLEntityScanner.java:1657)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:193)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:772)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.dom4j.io.SAXReader.read(SAXReader.java:465)
+	... 22 more
+[DEBUG] Skipping watched dependency update for build: MeetingClient #24 due to result: FAILURE
+Finished: FAILURE

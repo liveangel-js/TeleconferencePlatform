@@ -1,0 +1,44 @@
+Started by an SCM change
+Updating http://202.119.48.42/svn/team26/trunk/Server revision: 2012-5-22 20:12:11 depth:infinity ignoreExternals: false
+D         src\chat
+D         src\fileShare
+D         src\logic
+U         src\sql\test\sqlcommand.txt
+U         src\sql\SQLConnecter.java
+U         src\sql\FileAccessSQL.java
+U         src\Server\MeetingServer.java
+U         src\Server\memberControl.java
+U         src\Server\meetingControl.java
+A         src\Server\OrderControl.java
+U         src\board\MyRectangle.java
+D         src\rmi\data
+D         src\rmi\server\interfaces\MessageSender.java
+D         src\rmi\server\interfaces\VoiceSender.java
+D         src\rmi\server\interfaces\FileShareService.java
+A         src\rmi\server\interfaces\FileShareService.java
+A         src\rmi\server\interfaces\MessageService.java
+U         src\rmi\server\interfaces\MemberControlInterface.java
+U         src\rmi\server\interfaces\MeetingControlService.java
+U         src\rmi\server\interfaces\PaintSender.java
+A         src\rmi\server\interfaces\OrderControlInterface.java
+D         src\rmi\server\implement\FileShareImp.java
+D         src\rmi\server\implement\MessageSenderImp.java
+D         src\rmi\server\implement\VoiceSenderImp.java
+A         src\rmi\server\implement\ServerManager.java
+A         src\rmi\server\implement\FileShareServiceImp.java
+A         src\rmi\server\implement\MessageServiceImp.java
+U         src\rmi\server\implement\PaintSendImp.java
+U         src\rmi\server\implement\LoggingServiceImp.java
+D         src\rmi\client\interfaces\VoiceReciever.java
+A         src\rmi\client\interfaces\OrderRecieverInterface.java
+D         src\rmi\client\interfaces\MessageReciever.java
+A         src\rmi\client\interfaces\MessageReciever.java
+A         src\data\Name.java
+U         src\data\ShapeModel.java
+A         src\data\MeetingInfo.java
+A         src\data\OrderInfo.java
+U         src\voiceServer\Mixer.java
+At revision 445
+WARNING: clock of the subversion server appears to be out of sync. This can result in inconsistent check out behavior.
+[DEBUG] Skipping watched dependency update; build not configured with trigger: MeetingSystem #87
+Finished: SUCCESS

@@ -1,0 +1,8 @@
+Started by an SCM change
+Updating http://202.119.48.42/svn/team26/trunk/Server revision: 2012-6-4 17:58:04 depth:infinity ignoreExternals: false
+At revision 664
+no change for http://202.119.48.42/svn/team26/trunk/Server since the previous build
+FATAL: Unable to find build script at D:\Hudson\jobs\MeetingSystem\workspace\build.xml
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mRecording test results
+[DEBUG] Skipping watched dependency update for build: MeetingSystem #47 due to result: FAILURE
+Finished: FAILURE

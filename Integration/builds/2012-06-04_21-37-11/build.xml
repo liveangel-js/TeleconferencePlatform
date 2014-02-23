@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.triggers.SCMTrigger_-SCMTriggerCause/>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction>
+      <build class="build" reference="../../.."/>
+    </hudson.triggers.SCMTrigger_-BuildAction>
+    <hudson.scm.SubversionTagAction>
+      <build class="build" reference="../../.."/>
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <no-comparator/>
+        <entry>
+          <hudson.scm.SubversionSCM_-SvnInfo>
+            <url>http://202.119.48.42/svn/team26/trunk/Server</url>
+            <revision>698</revision>
+          </hudson.scm.SubversionSCM_-SvnInfo>
+          <list/>
+        </entry>
+      </tags>
+    </hudson.scm.SubversionTagAction>
+    <hudson.scm.SVNRevisionState>
+      <revisions>
+        <entry>
+          <string>http://202.119.48.42/svn/team26/trunk/Server</string>
+          <long>698</long>
+        </entry>
+      </revisions>
+    </hudson.scm.SVNRevisionState>
+    <hudson.tasks.junit.TestResultAction>
+      <owner class="build" reference="../../.."/>
+      <descriptions class="java.util.concurrent.ConcurrentHashMap"/>
+      <failCount>13</failCount>
+      <skipCount>0</skipCount>
+      <totalCount>14</totalCount>
+      <testData/>
+    </hudson.tasks.junit.TestResultAction>
+  </actions>
+  <number>79</number>
+  <result>UNSTABLE</result>
+  <duration>14946</duration>
+  <charset>GBK</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\Hudson\jobs\MeetingSystem\workspace</workspace>
+  <hudsonVersion>2.1.1</hudsonVersion>
+  <scm class="hudson.scm.SubversionChangeLogParser"/>
+  <culprits>
+    <string>101250108</string>
+    <string>101250033</string>
+    <string>101250020</string>
+  </culprits>
+</build>

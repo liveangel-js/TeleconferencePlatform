@@ -1,0 +1,27 @@
+Started by user anonymous
+Updating http://202.119.48.42/svn/team26/trunk/Client revision: 2012-5-31 17:07:05 depth:infinity ignoreExternals: false
+At revision 607
+no change for http://202.119.48.42/svn/team26/trunk/Client since the previous build
+[workspace] $ cmd.exe /C '"D:\ANT\bin\ant.bat -file build.xml && exit %%ERRORLEVEL%%"'
+Buildfile: D:\Hudson\jobs\MeetingClient\workspace\build.xml
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minit:
+   [delete] Deleting directory D:\Hudson\jobs\MeetingClient\workspace\build
+   [delete] Deleting directory D:\Hudson\jobs\MeetingClient\workspace\dist
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingClient\workspace\build
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcompile:
+    [javac] Compiling 60 source files to D:\Hudson\jobs\MeetingClient\workspace\build
+    [javac] ◊¢“‚£∫ƒ≥–© ‰»ÎŒƒº˛ π”√ªÚ∏≤∏«¡À“—π˝ ±µƒ API°£
+    [javac] ◊¢“‚£∫“™¡ÀΩ‚œÍœ∏–≈œ¢£¨«Î π”√ -Xlint:deprecation ÷ÿ–¬±‡“Î°£
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mdist:
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingClient\workspace\dist\lib
+      [jar] Building jar: D:\Hudson\jobs\MeetingClient\workspace\dist\lib\test-20120531.jar
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 2 seconds
+Recording test results
+No test report files were found. Configuration error?
+[DEBUG] Skipping watched dependency update for build: MeetingClient #17 due to result: FAILURE
+Finished: FAILURE

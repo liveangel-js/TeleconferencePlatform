@@ -1,0 +1,141 @@
+Started by user anonymous
+Updating http://202.119.48.42/svn/team26/trunk/Server revision: 2012-6-6 15:56:29 depth:infinity ignoreExternals: false
+ U        build\sql\Interface\BoardElementDataInterface.class
+AU        build\sql\Interface\ObjectInsertInterface.class
+ U        build\sql\Interface\UsersDataInterface.class
+ U        build\sql\Interface\ChatWriterInterface.class
+AU        build\sql\Interface\NewestObjectInterface.class
+ U        build\sql\Interface\MeetingDataInterface.class
+AU        build\sql\Interface\SoundWriteInterface.class
+ U        build\sql\Interface\FileUploadInterface.class
+ U        build\sql\Interface\FileNetInterface.class
+ U        build\sql\Interface\FileDownloadInterface.class
+ U        build\sql\Interface\UserIndentifyInterface.class
+AU        build\sql\Interface\ObjectReaderInterface.class
+ U        build\sql\UsersManager.class
+ U        build\sql\Setting.class
+ U        build\sql\ChatRecordSQL.class
+ U        build\sql\SQLConnecter.class
+ U        build\sql\FileAccessSQL.class
+ U        build\sql\junit\test\TestBoardElementDataInterface.class
+ U        build\sql\junit\test\TestChatWriterInterface.class
+ U        build\sql\junit\test\TestMeetingDataInterface.class
+ U        build\sql\junit\test\TestUserIndentifyInterface.class
+ U        build\sql\BoardRecordSQL.class
+ U        build\sql\MeetingRecordSQL.class
+AU        build\sql\SoundRecordSQL.class
+ U        build\sql\UserIndentifySQL.class
+ U        build\Server\JServerFrame.class
+ U        build\Server\OrderControl.class
+ U        build\Server\loggingServer.class
+ U        build\Server\memberControl$1.class
+ U        build\Server\meetingControl$1.class
+ U        build\Server\MeetingServer.class
+ U        build\Server\JServerFrame$1.class
+ U        build\Server\OrderControl$1.class
+ U        build\Server\checkServer.class
+ U        build\Server\meetingControl$RunnableImpl.class
+ U        build\Server\memberControl.class
+ U        build\Server\meetingControl.class
+ U        build\board\MyFont.class
+ U        build\board\MyNodeShape.class
+ U        build\board\MyEndState.class
+ U        build\board\MyRoundRectangle.class
+ U        build\board\MyPackageShape.class
+ U        build\board\MyTimeShape.class
+ U        build\board\MyEraser.class
+ U        build\board\MyLin.class
+ U        build\board\MyUsageShape.class
+ U        build\board\MyAssoShape.class
+ U        build\board\MyClassShape.class
+ U        build\board\MyLine.class
+ U        build\board\MyActorShape.class
+ U        build\board\MyPensil.class
+ U        build\board\MyBlackCircle.class
+ U        build\board\MyCompoShape.class
+ U        build\board\MyStartState.class
+ U        build\board\MyGeneShape.class
+ U        build\board\MyOval.class
+ U        build\board\MyAggrShape.class
+ U        build\board\MyRectangle.class
+ U        build\rmi\server\interfaces\PaintSender.class
+ U        build\rmi\server\interfaces\OrderControlInterface.class
+ U        build\rmi\server\interfaces\FileShareService.class
+ U        build\rmi\server\interfaces\MessageService.class
+ U        build\rmi\server\interfaces\LoggingService.class
+ U        build\rmi\server\interfaces\MemberControlInterface.class
+ U        build\rmi\server\interfaces\MeetingControlService.class
+ U        build\rmi\server\implement\MessageServiceImp.class
+ U        build\rmi\server\implement\PaintSendImp.class
+ U        build\rmi\server\implement\LoggingServiceImp.class
+ U        build\rmi\server\implement\FileShareServiceImp.class
+ U        build\rmi\client\interfaces\MeetingReceiverInterface.class
+ U        build\rmi\client\interfaces\PaintReceiver.class
+ U        build\rmi\client\interfaces\OrderRecieverInterface.class
+ U        build\rmi\client\interfaces\MessageReciever.class
+ U        build\data\Name.class
+ U        build\data\ShapeModel.class
+ U        build\data\MeetingInfo.class
+ U        build\data\Message.class
+ U        build\data\ImgData.class
+ U        build\data\Member.class
+ U        build\data\OrderInfo.class
+ U        build\data\Meeting.class
+ U        build\data\Point.class
+ U        build\data\record\RecordWriterInterface.class
+ U        build\data\record\ChatMessageManager.class
+ U        build\data\record\RecordUsersInMeetingInterface.class
+ U        build\data\record\MeetingRecordManager.class
+ U        build\data\record\RecordReaderInterface.class
+ U        build\data\record\RecordUpdateInterface.class
+AU        build\data\record\SoundRecordManager.class
+ U        build\manager\ServiceManager.class
+ U        build\manager\ServerManager.class
+ U        build\voiceServer\voiceServer.class
+ U        build\voiceServer\AudioInfo.class
+ U        build\voiceServer\Record.class
+ U        build\voiceServer\Mixer.class
+AU        dist\lib\test-20120604.jar
+A         report\junit\html\sql\junit\test\3_TestUserIndentifyInterface-fails.html
+At revision 728
+no change for http://202.119.48.42/svn/team26/trunk/Server since the previous build
+[workspace] $ cmd.exe /C '"D:\ANT\bin\ant.bat -file build.xml && exit %%ERRORLEVEL%%"'
+Buildfile: D:\Hudson\jobs\MeetingSystem\workspace\build.xml
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minit:
+   [delete] Deleting directory D:\Hudson\jobs\MeetingSystem\workspace\build
+   [delete] Deleting directory D:\Hudson\jobs\MeetingSystem\workspace\report
+   [delete] Deleting directory D:\Hudson\jobs\MeetingSystem\workspace\dist
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingSystem\workspace\build
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcompile:
+    [javac] Compiling 85 source files to D:\Hudson\jobs\MeetingSystem\workspace\build
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mdist:
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingSystem\workspace\dist\lib
+      [jar] Building jar: D:\Hudson\jobs\MeetingSystem\workspace\dist\lib\test-20120606.jar
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mtest:
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingSystem\workspace\report\junit\xml
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingSystem\workspace\report\junit\html
+    [junit] Running sql.junit.test.TestBoardElementDataInterface
+    [junit] Tests run: 8, Failures: 1, Errors: 7, Time elapsed: 0.458 sec
+    [junit] Test sql.junit.test.TestBoardElementDataInterface FAILED
+    [junit] Running sql.junit.test.TestChatWriterInterface
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.063 sec
+    [junit] Running sql.junit.test.TestMeetingDataInterface
+    [junit] Tests run: 4, Failures: 0, Errors: 4, Time elapsed: 0.307 sec
+    [junit] Test sql.junit.test.TestMeetingDataInterface FAILED
+    [junit] Running sql.junit.test.TestUserIndentifyInterface
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0.358 sec
+    [junit] Test sql.junit.test.TestUserIndentifyInterface FAILED
+[junitreport] Processing D:\Hudson\jobs\MeetingSystem\workspace\report\junit\html\TESTS-TestSuites.xml to C:\Users\ADMINI~1\AppData\Local\Temp\null2041917167
+[junitreport] Loading stylesheet jar:file:/D:/ANT/lib/ant-junit.jar!/org/apache/tools/ant/taskdefs/optional/junit/xsl/junit-frames.xsl
+[junitreport] Transform time: 979ms
+[junitreport] Deleting: C:\Users\ADMINI~1\AppData\Local\Temp\null2041917167
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 31 seconds
+Recording test results
+[DEBUG] Skipping watched dependency update; build not configured with trigger: MeetingSystem #102
+Finished: UNSTABLE

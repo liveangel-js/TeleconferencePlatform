@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/team26/!svn/ver/695/trunk/Server/src/board
+END
+MyCompoShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyCompoShape.java
+END
+MyRoundRectangle.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyRoundRectangle.java
+END
+MyUsageShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyUsageShape.java
+END
+MyPensil.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyPensil.java
+END
+MyTimeShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyTimeShape.java
+END
+MyPackageShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyPackageShape.java
+END
+MyAssoShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyAssoShape.java
+END
+MyLin.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/team26/!svn/ver/695/trunk/Server/src/board/MyLin.java
+END
+MyAggrShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyAggrShape.java
+END
+MyBlackCircle.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyBlackCircle.java
+END
+MyRectangle.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyRectangle.java
+END
+MyEndState.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/team26/!svn/ver/663/trunk/Server/src/board/MyEndState.java
+END
+MyLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyLine.java
+END
+MyGeneShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyGeneShape.java
+END
+MyOval.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyOval.java
+END
+MyStartState.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyStartState.java
+END
+MyFont.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyFont.java
+END
+MyActorShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyActorShape.java
+END
+MyEraser.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyEraser.java
+END
+MyClassShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyClassShape.java
+END
+MyNodeShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/624/trunk/Server/src/board/MyNodeShape.java
+END

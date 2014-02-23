@@ -1,0 +1,75 @@
+Started by an SCM change
+Updating http://202.119.48.42/svn/team26/trunk/Server revision: 2012-6-4 19:43:47 depth:infinity ignoreExternals: false
+A         config.ini
+A         src\sql\Setting.java
+At revision 670
+[workspace] $ cmd.exe /C '"D:\ANT\bin\ant.bat -file build.xml && exit %%ERRORLEVEL%%"'
+Buildfile: D:\Hudson\jobs\MeetingSystem\workspace\build.xml
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minit:
+   [delete] Deleting directory D:\Hudson\jobs\MeetingSystem\workspace\build
+   [delete] Deleting directory D:\Hudson\jobs\MeetingSystem\workspace\report
+   [delete] Deleting directory D:\Hudson\jobs\MeetingSystem\workspace\dist
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingSystem\workspace\build
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcompile:
+    [javac] Compiling 87 source files to D:\Hudson\jobs\MeetingSystem\workspace\build
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mdist:
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingSystem\workspace\dist\lib
+      [jar] Building jar: D:\Hudson\jobs\MeetingSystem\workspace\dist\lib\test-20120604.jar
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mtest:
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingSystem\workspace\report\junit\xml
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingSystem\workspace\report\junit\html
+    [junit] Running sql.junit.test.TestBoardElementDataInterface
+    [junit] Tests run: 8, Failures: 1, Errors: 7, Time elapsed: 0.342 sec
+    [junit] Test sql.junit.test.TestBoardElementDataInterface FAILED
+    [junit] Running sql.junit.test.TestChatWriterInterface
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.067 sec
+    [junit] Running sql.junit.test.TestMeetingDataInterface
+    [junit] Tests run: 4, Failures: 0, Errors: 4, Time elapsed: 0.305 sec
+    [junit] Test sql.junit.test.TestMeetingDataInterface FAILED
+    [junit] Running sql.junit.test.TestUserIndentifyInterface
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0.292 sec
+    [junit] Test sql.junit.test.TestUserIndentifyInterface FAILED
+[junitreport] Processing D:\Hudson\jobs\MeetingSystem\workspace\report\junit\html\TESTS-TestSuites.xml to C:\Users\ADMINI~1\AppData\Local\Temp\null2143261712
+[junitreport] Loading stylesheet jar:file:/D:/ANT/lib/ant-junit.jar!/org/apache/tools/ant/taskdefs/optional/junit/xsl/junit-frames.xsl
+[junitreport] Transform time: 481ms
+[junitreport] Deleting: C:\Users\ADMINI~1\AppData\Local\Temp\null2143261712
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 6 seconds
+Recording test results
+[workspace] $ mvn.bat -f D:\Hudson\jobs\MeetingSystem\workspace\pom.xml -e -B sonar:sonar -Dsonar.jdbc.driver=com.mysql.jdbc.Driver -Dsonar.jdbc.url=jdbc:mysql://localhost:3306/seproject? ******** ******** "-Dsonar.host.url=Default is http://localhost:9000"
+FATAL: command execution failed
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.io.IOException: Cannot run program "mvn.bat" (in directory "D:\Hudson\jobs\MeetingSystem\workspace"): CreateProcess error=2, ?????????
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:460)
+	at hudson.Proc$LocalProc.<init>(Proc.java:192)
+	at hudson.Proc$LocalProc.<init>(Proc.java:164)
+	at hudson.Launcher$LocalLauncher.launch(Launcher.java:639)
+	at hudson.Launcher$ProcStarter.start(Launcher.java:274)
+	at hudson.Launcher$ProcStarter.join(Launcher.java:281)
+	at hudson.tasks.Maven.perform(Maven.java:259)
+	at hudson.plugins.sonar.utils.SonarMaven.executeMaven(SonarMaven.java:138)
+	at hudson.plugins.sonar.SonarPublisher.executeSonar(SonarPublisher.java:300)
+	at hudson.plugins.sonar.SonarPublisher.perform(SonarPublisher.java:261)
+	at hudson.tasks.BuildStepMonitor$3.perform(BuildStepMonitor.java:36)
+	at hudson.model.AbstractBuild$AbstractRunner.perform(AbstractBuild.java:630)
+	at hudson.model.AbstractBuild$AbstractRunner.performAllBuildSteps(AbstractBuild.java:608)
+	at hudson.model.AbstractBuild$AbstractRunner.performAllBuildSteps(AbstractBuild.java:584)
+	at hudson.model.Build$RunnerImpl.post2(Build.java:159)
+	at hudson.model.AbstractBuild$AbstractRunner.post(AbstractBuild.java:553)
+	at hudson.model.Run.run(Run.java:1391)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:145)
+Caused by: java.io.IOException: CreateProcess error=2, ?????????
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:81)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:30)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:453)
+	... 19 more
+Sonar analysis completed: FAILURE
+[DEBUG] Skipping watched dependency update for build: MeetingSystem #51 due to result: FAILURE
+Finished: FAILURE

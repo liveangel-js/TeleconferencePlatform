@@ -1,0 +1,36 @@
+Started by an SCM change
+Updating http://202.119.48.42/svn/team26/trunk/Server revision: 2012-5-30 20:21:14 depth:infinity ignoreExternals: false
+A         upload
+U         src\sql\Interface\MeetingDataInterface.java
+U         src\sql\Interface\BoardElementDataInterface.java
+U         src\sql\SQLConnecter.java
+U         src\sql\BoardRecordSQL.java
+U         src\sql\MeetingRecordSQL.java
+U         src\Server\MeetingServer.java
+U         src\Server\meetingControl.java
+U         src\board\MyActorShape.java
+U         src\board\MyStartState.java
+U         src\board\MyCompoShape.java
+U         src\board\MyGeneShape.java
+U         src\board\MyAggrShape.java
+U         src\board\MyFont.java
+U         src\board\MyNodeShape.java
+U         src\board\MyEndState.java
+U         src\board\MyPackageShape.java
+U         src\board\MyTimeShape.java
+U         src\board\MyUsageShape.java
+U         src\board\MyClassShape.java
+U         src\board\MyAssoShape.java
+U         src\rmi\server\interfaces\FileShareService.java
+U         src\rmi\server\interfaces\PaintSender.java
+U         src\rmi\server\implement\FileShareServiceImp.java
+U         src\rmi\server\implement\MessageServiceImp.java
+U         src\rmi\server\implement\PaintSendImp.java
+U         src\data\Meeting.java
+U         src\manager\ServerManager.java
+U         src\manager\ServiceManager.java
+At revision 590
+WARNING: clock of the subversion server appears to be out of sync. This can result in inconsistent check out behavior.
+FATAL: Unable to find build script at D:\Hudson\jobs\MeetingSystem\workspace\build.xml
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0m[DEBUG] Skipping watched dependency update for build: MeetingSystem #99 due to result: FAILURE
+Finished: FAILURE

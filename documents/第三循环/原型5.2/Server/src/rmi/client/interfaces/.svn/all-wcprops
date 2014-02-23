@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/team26/!svn/ver/223/trunk/Server/src/rmi/client/interfaces
+END
+PaintReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/team26/!svn/ver/223/trunk/Server/src/rmi/client/interfaces/PaintReceiver.java
+END
+MessageReciever.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/team26/!svn/ver/169/trunk/Server/src/rmi/client/interfaces/MessageReciever.java
+END
+VoiceReciever.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/team26/!svn/ver/169/trunk/Server/src/rmi/client/interfaces/VoiceReciever.java
+END

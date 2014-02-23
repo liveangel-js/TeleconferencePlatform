@@ -1,0 +1,77 @@
+create database seproject;
+
+create table Meetings(
+	MeetingID int not null auto_increment,
+	StartTime DateTime not null,
+	EndTime DateTime default null,
+	primary key(MeetingID)
+);//整个会议的表
+create table MeetingMembers(
+	MeetingID int not null,
+	UserName varchar(30) not null,
+	primary key(MeetingID,UserName)
+);//参会成员刘表
+create table Users(
+	UserName varchar(30) not null,
+	Password varchar(16) not null,
+	primary key(UserName)
+);//整个用户的表
+create table Files(
+	FileID int not null auto_increment,
+	MeetingID int not null,
+	FileName varchar(60) not null,
+	FileData MediumBlob not null,
+	FileLength int not null,
+	ModifyTime DateTime not null,
+	LoaderUserName varchar(30) not null default 'system',
+	primary key(FileID)
+);//整个文件的表
+create table WhiteBoards(
+	BoardID int not null ,
+	MeetingID int not null,
+	primary key(BoardID,MeetingID)
+);//所有白板的表
+create table Elements(
+	ElementsID int not null auto_increment,
+	BoardID int not null,
+	Shapemodel MediumBlob default null,
+	Type varchar(30) not null default 'unknown',
+	UserName varchar(30) not null,
+	primary key(ElementsID)
+);//某次会议某个白板的表
+create table ChatMessages(
+	MessageID int not null auto_increment,
+	MeetingID int not null,
+	UserName varchar(30) not null,
+	Content varchar(1000) not null,
+	Time varchar(50) not null,
+	primary key(MessageID)
+);//某次会议聊天记录的表
+
+DELIMITER //
+create procedure create_meeting_chatmessages(in temp_tablename var(30),in temp_id int)
+BEGIN
+	create table @temp_tablename(
+	MessageID int not null auto_increment,
+	MeetingID int not null default temp_id,
+	UserName varchar(30) not null,
+	Content varchar(1000) not null,
+	Time varchar(50) not null,
+	primary key(MessageID)
+	);	
+END//
+
+DELIMITER ;
+//创建某次聊天记录的存储过程
+	
+	create database seproject;
+
+
+	show VARIABLES like '%max_allowed_packet%';
+
+修改此变量的值：
+MySQL安装目录下的
+my.ini文件中的[mysqld]段中的＂max_allowed_packet = 1M＂，(可能有些文件会没有这一行的)
+格式为：
+[mysqld]
+max_allowed_packet = 1M （ 将1M更改为4M(如果没有这行内容，增加一行))，

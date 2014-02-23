@@ -1,0 +1,97 @@
+8
+
+dir
+737
+http://202.119.48.42/svn/team26/trunk/Server
+http://202.119.48.42/svn/team26
+
+
+
+2012-06-07T10:42:32.706200Z
+737
+101250108
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+98a15166-517a-c84c-8ff9-78a53cfc9072
+
+.classpath
+file
+
+
+
+
+2012-06-05T13:32:45.836000Z
+78e2ea987180480f38da54a37d96a541
+2012-06-03T12:28:31.294014Z
+651
+101250056
+
+.project
+file
+
+
+
+
+2012-06-04T09:58:01.959000Z
+362245a33f405b1872e333848fbe4a86
+2012-04-08T06:44:06.865859Z
+91
+101250056
+
+.settings
+dir
+
+build
+dir
+
+build.xml
+file
+
+
+
+
+2012-06-05T13:32:48.288000Z
+074d4daa427d98dab2634e436158e785
+2012-06-04T13:02:51.091190Z
+693
+101250108
+
+config.ini
+file
+
+
+
+
+2012-06-07T10:26:41.788000Z
+f67465a2d8bfaaf429dbd1097f63a6cc
+2012-06-07T10:26:07.942496Z
+736
+101250108
+
+dist
+dir
+
+lib
+dir
+
+report
+dir
+
+src
+dir
+
+upload
+dir
+

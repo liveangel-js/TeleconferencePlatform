@@ -1,0 +1,52 @@
+8
+
+dir
+737
+http://202.119.48.42/svn/team26/trunk/Server/src/manager
+http://202.119.48.42/svn/team26
+
+
+
+2012-06-01T09:18:19.886949Z
+639
+101250033
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+98a15166-517a-c84c-8ff9-78a53cfc9072
+
+ServerManager.java
+file
+
+
+
+
+2012-06-05T13:32:47.693000Z
+bb84804350fc19a2af11562d89f28def
+2012-06-01T09:18:19.886949Z
+639
+101250033
+
+ServiceManager.java
+file
+
+
+
+
+2012-05-30T12:21:15.210000Z
+6496a0ff8d2ca9f1174a4b355af1705a
+2012-05-30T09:43:26.436955Z
+559
+101250108
+

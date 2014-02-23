@@ -1,0 +1,11 @@
+Started by an SCM change
+Started by user anonymous
+Updating http://202.119.48.42/svn/team26/trunk/Server revision: 2012-5-19 21:21:21 depth:infinity ignoreExternals: false
+U         src\rmi\server\interfaces\PaintSender.java
+U         src\rmi\server\implement\PaintSendImp.java
+U         src\rmi\client\interfaces\PaintReceiver.java
+U         src\data\ShapeModel.java
+At revision 373
+WARNING: clock of the subversion server appears to be out of sync. This can result in inconsistent check out behavior.
+[DEBUG] Skipping watched dependency update; build not configured with trigger: MeetingSystem #84
+Finished: SUCCESS

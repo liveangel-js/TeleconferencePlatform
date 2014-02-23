@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result>
+  <suites>
+    <suite>
+      <file>D:\Hudson\jobs\MeetingSystem\workspace\report\junit\xml\TEST-sql.junit.test.TestBoardElementDataInterface.xml</file>
+      <name>sql.junit.test.TestBoardElementDataInterface</name>
+      <stdout>不能连接至数据库
+不能连接至数据库
+不能连接至数据库
+[blobInsert error : ]java.lang.NullPointerException
+不能连接至数据库
+[blobInsert error : ]java.lang.NullPointerException
+不能连接至数据库
+不能连接至数据库
+[blobInsert error : ]java.lang.NullPointerException
+不能连接至数据库
+不能连接至数据库
+不能连接至数据库
+不能连接至数据库
+不能连接至数据库
+</stdout>
+      <stderr></stderr>
+      <duration>0.301</duration>
+      <timestamp>2012-06-04T12:38:58</timestamp>
+      <cases>
+        <case>
+          <duration>0.26</duration>
+          <className>sql.junit.test.TestBoardElementDataInterface</className>
+          <testName>testNewBoard</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.NullPointerException
+	at sql.BoardRecordSQL.newBoard(Unknown Source)
+	at sql.junit.test.TestBoardElementDataInterface.testNewBoard(Unknown Source)
+</errorStackTrace>
+          <failedSince>48</failedSince>
+        </case>
+        <case>
+          <duration>0.0050</duration>
+          <className>sql.junit.test.TestBoardElementDataInterface</className>
+          <testName>testwriteNewImgeData</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>junit.framework.AssertionFailedError: expected:&lt;1&gt; but was:&lt;-1&gt;
+	at sql.junit.test.TestBoardElementDataInterface.testwriteNewImgeData(Unknown Source)
+</errorStackTrace>
+          <errorDetails>expected:&lt;1&gt; but was:&lt;-1&gt;</errorDetails>
+          <failedSince>48</failedSince>
+        </case>
+        <case>
+          <duration>0.01</duration>
+          <className>sql.junit.test.TestBoardElementDataInterface</className>
+          <testName>testReadImageData</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.NullPointerException
+	at sql.BoardRecordSQL.readImageData(Unknown Source)
+	at sql.junit.test.TestBoardElementDataInterface.testReadImageData(Unknown Source)
+</errorStackTrace>
+          <failedSince>48</failedSince>
+        </case>
+        <case>
+          <duration>0.0090</duration>
+          <className>sql.junit.test.TestBoardElementDataInterface</className>
+          <testName>testGetNewestID</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.NullPointerException
+	at sql.BoardRecordSQL.getNewestID(Unknown Source)
+	at sql.junit.test.TestBoardElementDataInterface.testGetNewestID(Unknown Source)
+</errorStackTrace>
+          <failedSince>48</failedSince>
+        </case>
+        <case>
+          <duration>0.0050</duration>
+          <className>sql.junit.test.TestBoardElementDataInterface</className>
+          <testName>testGetUpdateList</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.NullPointerException
+	at sql.BoardRecordSQL.getUpdateList(Unknown Source)
+	at sql.junit.test.TestBoardElementDataInterface.testGetUpdateList(Unknown Source)
+</errorStackTrace>
+          <failedSince>48</failedSince>
+        </case>
+        <case>
+          <duration>0.0040</duration>
+          <className>sql.junit.test.TestBoardElementDataInterface</className>
+          <testName>testDeleteImageData</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.NullPointerException
+	at sql.BoardRecordSQL.getNewestID(Unknown Source)
+	at sql.junit.test.TestBoardElementDataInterface.testDeleteImageData(Unknown Source)
+</errorStackTrace>
+          <failedSince>48</failedSince>
+        </case>
+        <case>
+          <duration>0.0040</duration>
+          <className>sql.junit.test.TestBoardElementDataInterface</className>
+          <testName>testGetBoardIDList</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.NullPointerException
+	at sql.BoardRecordSQL.getBoardIDList(Unknown Source)
+	at sql.junit.test.TestBoardElementDataInterface.testGetBoardIDList(Unknown Source)
+</errorStackTrace>
+          <failedSince>48</failedSince>
+        </case>
+        <case>
+          <duration>0.0040</duration>
+          <className>sql.junit.test.TestBoardElementDataInterface</className>
+          <testName>testDeleteBoard</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.NullPointerException
+	at sql.BoardRecordSQL.newBoard(Unknown Source)
+	at sql.junit.test.TestBoardElementDataInterface.testDeleteBoard(Unknown Source)
+</errorStackTrace>
+          <failedSince>48</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>D:\Hudson\jobs\MeetingSystem\workspace\report\junit\xml\TEST-sql.junit.test.TestChatWriterInterface.xml</file>
+      <name>sql.junit.test.TestChatWriterInterface</name>
+      <stdout></stdout>
+      <stderr></stderr>
+      <duration>0.0010</duration>
+      <timestamp>2012-06-04T12:38:59</timestamp>
+      <cases>
+        <case>
+          <duration>0.0010</duration>
+          <className>sql.junit.test.TestChatWriterInterface</className>
+          <testName>testWriteRecord</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>D:\Hudson\jobs\MeetingSystem\workspace\report\junit\xml\TEST-sql.junit.test.TestMeetingDataInterface.xml</file>
+      <name>sql.junit.test.TestMeetingDataInterface</name>
+      <stdout>不能连接至数据库
+不能连接至数据库
+不能连接至数据库
+不能连接至数据库
+不能连接至数据库
+</stdout>
+      <stderr></stderr>
+      <duration>0.24499999</duration>
+      <timestamp>2012-06-04T12:39:00</timestamp>
+      <cases>
+        <case>
+          <duration>0.23</duration>
+          <className>sql.junit.test.TestMeetingDataInterface</className>
+          <testName>testInsertMeeting</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.NullPointerException
+	at sql.MeetingRecordSQL.insertMeeting(Unknown Source)
+	at sql.junit.test.TestMeetingDataInterface.testInsertMeeting(Unknown Source)
+</errorStackTrace>
+          <failedSince>48</failedSince>
+        </case>
+        <case>
+          <duration>0.0050</duration>
+          <className>sql.junit.test.TestMeetingDataInterface</className>
+          <testName>testupdateMeeting</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.NullPointerException
+	at sql.MeetingRecordSQL.updateMeeting(Unknown Source)
+	at sql.junit.test.TestMeetingDataInterface.testupdateMeeting(Unknown Source)
+</errorStackTrace>
+          <failedSince>48</failedSince>
+        </case>
+        <case>
+          <duration>0.0050</duration>
+          <className>sql.junit.test.TestMeetingDataInterface</className>
+          <testName>testgetLastMeetingID</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.NullPointerException
+	at sql.MeetingRecordSQL.getLastMeetingID(Unknown Source)
+	at sql.junit.test.TestMeetingDataInterface.testgetLastMeetingID(Unknown Source)
+</errorStackTrace>
+          <failedSince>48</failedSince>
+        </case>
+        <case>
+          <duration>0.0050</duration>
+          <className>sql.junit.test.TestMeetingDataInterface</className>
+          <testName>testcheckLastMeeting</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.NullPointerException
+	at sql.MeetingRecordSQL.getLastMeetingID(Unknown Source)
+	at sql.MeetingRecordSQL.checkLastMeeting(Unknown Source)
+	at sql.junit.test.TestMeetingDataInterface.testcheckLastMeeting(Unknown Source)
+</errorStackTrace>
+          <failedSince>48</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>D:\Hudson\jobs\MeetingSystem\workspace\report\junit\xml\TEST-sql.junit.test.TestUserIndentifyInterface.xml</file>
+      <name>sql.junit.test.TestUserIndentifyInterface</name>
+      <stdout>不能连接至数据库
+不能连接至数据库
+</stdout>
+      <stderr></stderr>
+      <duration>0.235</duration>
+      <timestamp>2012-06-04T12:39:01</timestamp>
+      <cases>
+        <case>
+          <duration>0.235</duration>
+          <className>sql.junit.test.TestUserIndentifyInterface</className>
+          <testName>testcheckUser</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.NullPointerException
+	at sql.UsersManager.getUserPassWord(Unknown Source)
+	at sql.UserIndentifySQL.checkUser(Unknown Source)
+	at sql.junit.test.TestUserIndentifyInterface.testcheckUser(Unknown Source)
+</errorStackTrace>
+          <failedSince>48</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.782</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

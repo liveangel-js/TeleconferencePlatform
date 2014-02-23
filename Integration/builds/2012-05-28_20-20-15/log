@@ -1,0 +1,20 @@
+Started by an SCM change
+Started by user anonymous
+Updating http://202.119.48.42/svn/team26/trunk/Server revision: 2012-5-28 20:20:15 depth:infinity ignoreExternals: false
+U         src\sql\SQLConnecter.java
+A         src\board\MyGeneShape.java
+D         src\board\MyAggrShape.java
+A         src\board\MyAggrShape.java
+A         src\board\MyFont.java
+A         src\board\MyUsageShape.java
+D         src\rmi\server\implement\ServerManager.java
+U         src\rmi\server\implement\FileShareServiceImp.java
+U         src\rmi\server\implement\MessageServiceImp.java
+U         src\rmi\server\implement\PaintSendImp.java
+A         src\manager
+A         src\manager\ServerManager.java
+A         src\manager\ServiceManager.java
+At revision 538
+WARNING: clock of the subversion server appears to be out of sync. This can result in inconsistent check out behavior.
+[DEBUG] Skipping watched dependency update; build not configured with trigger: MeetingSystem #97
+Finished: SUCCESS

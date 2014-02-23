@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/team26/!svn/ver/680/trunk/Server/report/junit/xml
+END
+TEST-sql.junit.test.TestMeetingDataInterface.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/team26/!svn/ver/680/trunk/Server/report/junit/xml/TEST-sql.junit.test.TestMeetingDataInterface.xml
+END
+TEST-sql.junit.test.TestUserIndentifyInterface.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/team26/!svn/ver/680/trunk/Server/report/junit/xml/TEST-sql.junit.test.TestUserIndentifyInterface.xml
+END
+TEST-sql.junit.test.TestBoardElementDataInterface.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/team26/!svn/ver/680/trunk/Server/report/junit/xml/TEST-sql.junit.test.TestBoardElementDataInterface.xml
+END
+TEST-sql.junit.test.TestChatWriterInterface.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/team26/!svn/ver/680/trunk/Server/report/junit/xml/TEST-sql.junit.test.TestChatWriterInterface.xml
+END

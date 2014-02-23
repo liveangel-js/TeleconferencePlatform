@@ -1,0 +1,46 @@
+Started by user anonymous
+Updating http://202.119.48.42/svn/team26/trunk/Client revision: 2012-5-31 17:19:57 depth:infinity ignoreExternals: false
+ERROR: Failed to update http://202.119.48.42/svn/team26/trunk/Client
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0morg.tmatesoft.svn.core.SVNException: svn: connection refused by the server
+svn: OPTIONS request failed on '/svn/team26/trunk/Client'
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:106)
+	at org.tmatesoft.svn.core.internal.wc.SVNErrorManager.error(SVNErrorManager.java:90)
+	at org.tmatesoft.svn.core.internal.io.dav.http.HTTPConnection.request(HTTPConnection.java:629)
+	at org.tmatesoft.svn.core.internal.io.dav.http.HTTPConnection.request(HTTPConnection.java:275)
+	at org.tmatesoft.svn.core.internal.io.dav.http.HTTPConnection.request(HTTPConnection.java:263)
+	at org.tmatesoft.svn.core.internal.io.dav.DAVConnection.exchangeCapabilities(DAVConnection.java:516)
+	at org.tmatesoft.svn.core.internal.io.dav.DAVConnection.open(DAVConnection.java:98)
+	at org.tmatesoft.svn.core.internal.io.dav.DAVRepository.openConnection(DAVRepository.java:1001)
+	at org.tmatesoft.svn.core.internal.io.dav.DAVRepository.getRepositoryUUID(DAVRepository.java:146)
+	at org.tmatesoft.svn.core.wc.SVNBasicClient.createRepository(SVNBasicClient.java:342)
+	at org.tmatesoft.svn.core.wc.SVNBasicClient.createRepository(SVNBasicClient.java:330)
+	at org.tmatesoft.svn.core.wc.SVNUpdateClient.update(SVNUpdateClient.java:535)
+	at org.tmatesoft.svn.core.wc.SVNUpdateClient.doUpdate(SVNUpdateClient.java:401)
+	at hudson.scm.subversion.UpdateUpdater$TaskImpl.perform(UpdateUpdater.java:134)
+	at hudson.scm.subversion.WorkspaceUpdater$UpdateTask.delegateTo(WorkspaceUpdater.java:149)
+	at hudson.scm.SubversionSCM$CheckOutTask.perform(SubversionSCM.java:809)
+	at hudson.scm.SubversionSCM$CheckOutTask.invoke(SubversionSCM.java:790)
+	at hudson.scm.SubversionSCM$CheckOutTask.invoke(SubversionSCM.java:771)
+	at hudson.FilePath.act(FilePath.java:758)
+	at hudson.FilePath.act(FilePath.java:740)
+	at hudson.scm.SubversionSCM.checkout(SubversionSCM.java:763)
+	at hudson.scm.SubversionSCM.checkout(SubversionSCM.java:706)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1218)
+	at hudson.model.AbstractBuild$AbstractRunner.checkout(AbstractBuild.java:507)
+	at hudson.model.AbstractBuild$AbstractRunner.run(AbstractBuild.java:424)
+	at hudson.model.Run.run(Run.java:1367)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:145)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at org.tmatesoft.svn.core.internal.util.SVNSocketConnection.run(SVNSocketConnection.java:57)
+	at java.lang.Thread.run(Thread.java:662)
+Recording test results
+[DEBUG] Skipping watched dependency update for build: MeetingClient #21 due to result: FAILURE
+Finished: FAILURE

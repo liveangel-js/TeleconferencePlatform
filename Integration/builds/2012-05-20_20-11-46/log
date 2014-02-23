@@ -1,0 +1,8 @@
+Started by an SCM change
+Updating http://202.119.48.42/svn/team26/trunk/Server revision: 2012-5-20 20:11:46 depth:infinity ignoreExternals: false
+A         src\board\MyPensil.java
+A         src\board\MyEraser.java
+At revision 376
+WARNING: clock of the subversion server appears to be out of sync. This can result in inconsistent check out behavior.
+[DEBUG] Skipping watched dependency update; build not configured with trigger: MeetingSystem #85
+Finished: SUCCESS

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/team26/!svn/ver/708/trunk/Server/src/rmi/client/interfaces
+END
+PaintReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/team26/!svn/ver/708/trunk/Server/src/rmi/client/interfaces/PaintReceiver.java
+END
+OrderRecieverInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/team26/!svn/ver/405/trunk/Server/src/rmi/client/interfaces/OrderRecieverInterface.java
+END
+MessageReciever.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/team26/!svn/ver/425/trunk/Server/src/rmi/client/interfaces/MessageReciever.java
+END
+MeetingReceiverInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/team26/!svn/ver/675/trunk/Server/src/rmi/client/interfaces/MeetingReceiverInterface.java
+END

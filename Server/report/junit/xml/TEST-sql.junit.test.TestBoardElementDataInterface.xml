@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="WIN-9R3ACT3QOJD" name="sql.junit.test.TestBoardElementDataInterface" tests="8" time="1.245" timestamp="2012-06-04T12:10:11">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/D:/Eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/templates/" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="dist" value="dist" />
+    <property name="lib" value="lib" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="D:\JAVA\jre\lib\resources.jar;D:\JAVA\jre\lib\rt.jar;D:\JAVA\jre\lib\sunrsasign.jar;D:\JAVA\jre\lib\jsse.jar;D:\JAVA\jre\lib\jce.jar;D:\JAVA\jre\lib\charsets.jar;D:\JAVA\jre\lib\modules\jdk.boot.jar;D:\JAVA\jre\classes" />
+    <property name="TODAY" value="June 4 2012" />
+    <property name="report" value="report" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="D:\ANT" />
+    <property name="java.runtime.version" value="1.6.0_24-b07" />
+    <property name="user.name" value="Administrator" />
+    <property name="report.xml" value="report/junit/xml" />
+    <property name="user.language" value="zh" />
+    <property name="build" value="build" />
+    <property name="sun.boot.library.path" value="D:\JAVA\jre\bin" />
+    <property name="ant.project.default-target" value="test" />
+    <property name="ant.project.name" value="MeetingClient" />
+    <property name="DSTAMP" value="20120604" />
+    <property name="java.version" value="1.6.0_24" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="classpath" value="D:\Eclipse\Workspace\MeetingServer\build" />
+    <property name="java.endorsed.dirs" value="D:\JAVA\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="sun.jnu.encoding" value="GBK" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="src" value="src" />
+    <property name="user.country" value="CN" />
+    <property name="java.home" value="D:\JAVA\jre" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="ant.file" value="D:\Eclipse\Workspace\MeetingServer\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="19.1-b02" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="D:\ANT\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="eclipse.pdebuild.scripts" value="/D:/Eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/scripts/" />
+    <property name="user.home" value="C:\Users\Administrator" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="java.library.path" value="D:\JAVA\jre\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/JAVA/bin/../jre/bin/client;D:/JAVA/bin/../jre/bin;D:/JAVA/bin/../jre/lib/i386;D:\Qt\4.8.0\bin;D:\ANT\bin;D:\JAVA\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\7\优化大师\Windows7Master;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;D:\TSVN\bin;D:\Perl\c\bin;D:\Perl\perl\site\bin;D:\Perl\perl\bin;C:\Program Files\IDM Computer Solutions\UltraEdit\;D:\Eclipse;" />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="D:\Eclipse\Workspace\MeetingServer\build;D:\Eclipse\Workspace\MeetingServer\lib\junit-4.5.jar;D:\Eclipse\Workspace\MeetingServer\lib\mysql-connector-java-5.1.15-bin.jar;D:\Eclipse\Workspace\MeetingServer;D:\JAVA\lib\dt.jar;D:\JAVA\lib\tools.jar;D:\ANT\lib\ant-launcher.jar;D:\ANT\lib\ant.jar;D:\ANT\lib\ant-junit.jar;D:\ANT\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+    <property name="report.html" value="report/junit/html" />
+    <property name="TSTAMP" value="2010" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="ant.file.MeetingClient" value="D:\Eclipse\Workspace\MeetingServer\build.xml" />
+    <property name="eclipse.pdebuild.home" value="/D:/Eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/./" />
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="os.arch" value="x86" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="D:\JAVA\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="D:\Eclipse\Workspace\MeetingServer" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="basedir" value="D:\Eclipse\Workspace\MeetingServer" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="D:\ANT\lib\ant.jar" />
+    <property name="file.encoding" value="GBK" />
+    <property name="ant.file.type.MeetingClient" value="file" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="ant.project.invoked-targets" value="test" />
+  </properties>
+  <testcase classname="sql.junit.test.TestBoardElementDataInterface" name="testNewBoard" time="0.383" />
+  <testcase classname="sql.junit.test.TestBoardElementDataInterface" name="testwriteNewImgeData" time="0.074" />
+  <testcase classname="sql.junit.test.TestBoardElementDataInterface" name="testReadImageData" time="0.061" />
+  <testcase classname="sql.junit.test.TestBoardElementDataInterface" name="testGetNewestID" time="0.146" />
+  <testcase classname="sql.junit.test.TestBoardElementDataInterface" name="testGetUpdateList" time="0.0030" />
+  <testcase classname="sql.junit.test.TestBoardElementDataInterface" name="testDeleteImageData" time="0.267" />
+  <testcase classname="sql.junit.test.TestBoardElementDataInterface" name="testGetBoardIDList" time="0.0010" />
+  <testcase classname="sql.junit.test.TestBoardElementDataInterface" name="testDeleteBoard" time="0.146" />
+  <system-out><![CDATA[数据库连接成功
+1
+插入新白板:631
+插入白板单元ID294java.util.ArrayList
+插入白板单元ID295java.util.ArrayList
+插入白板单元ID296java.util.ArrayList
+删除白板1上单元296
+1
+插入新白板:292
+已删除白板ID292
+白板：292上没有图元，数量为0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,67 @@
+<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results: All Tests</title>
+<link rel="stylesheet" type="text/css" title="Style" href="stylesheet.css">
+</head>
+<body onload="open('allclasses-frame.html','classListFrame')">
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>All Tests</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Class</th><th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="sql/junit/test/0_TestBoardElementDataInterface.html">TestBoardElementDataInterface</a></td><td><a name="testNewBoard"></a><a href="sql/junit/test/0_TestBoardElementDataInterface.html#testNewBoard">testNewBoard</a></td><td>Success</td><td></td><td>0.383</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="sql/junit/test/0_TestBoardElementDataInterface.html">TestBoardElementDataInterface</a></td><td><a name="testwriteNewImgeData"></a><a href="sql/junit/test/0_TestBoardElementDataInterface.html#testwriteNewImgeData">testwriteNewImgeData</a></td><td>Success</td><td></td><td>0.074</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="sql/junit/test/0_TestBoardElementDataInterface.html">TestBoardElementDataInterface</a></td><td><a name="testReadImageData"></a><a href="sql/junit/test/0_TestBoardElementDataInterface.html#testReadImageData">testReadImageData</a></td><td>Success</td><td></td><td>0.061</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="sql/junit/test/0_TestBoardElementDataInterface.html">TestBoardElementDataInterface</a></td><td><a name="testGetNewestID"></a><a href="sql/junit/test/0_TestBoardElementDataInterface.html#testGetNewestID">testGetNewestID</a></td><td>Success</td><td></td><td>0.146</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="sql/junit/test/0_TestBoardElementDataInterface.html">TestBoardElementDataInterface</a></td><td><a name="testGetUpdateList"></a><a href="sql/junit/test/0_TestBoardElementDataInterface.html#testGetUpdateList">testGetUpdateList</a></td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="sql/junit/test/0_TestBoardElementDataInterface.html">TestBoardElementDataInterface</a></td><td><a name="testDeleteImageData"></a><a href="sql/junit/test/0_TestBoardElementDataInterface.html#testDeleteImageData">testDeleteImageData</a></td><td>Success</td><td></td><td>0.267</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="sql/junit/test/0_TestBoardElementDataInterface.html">TestBoardElementDataInterface</a></td><td><a name="testGetBoardIDList"></a><a href="sql/junit/test/0_TestBoardElementDataInterface.html#testGetBoardIDList">testGetBoardIDList</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="sql/junit/test/0_TestBoardElementDataInterface.html">TestBoardElementDataInterface</a></td><td><a name="testDeleteBoard"></a><a href="sql/junit/test/0_TestBoardElementDataInterface.html#testDeleteBoard">testDeleteBoard</a></td><td>Success</td><td></td><td>0.146</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="sql/junit/test/1_TestChatWriterInterface.html">TestChatWriterInterface</a></td><td><a name="testWriteRecord"></a><a href="sql/junit/test/1_TestChatWriterInterface.html#testWriteRecord">testWriteRecord</a></td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="sql/junit/test/2_TestMeetingDataInterface.html">TestMeetingDataInterface</a></td><td><a name="testInsertMeeting"></a><a href="sql/junit/test/2_TestMeetingDataInterface.html#testInsertMeeting">testInsertMeeting</a></td><td>Success</td><td></td><td>0.503</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="sql/junit/test/2_TestMeetingDataInterface.html">TestMeetingDataInterface</a></td><td><a name="testupdateMeeting"></a><a href="sql/junit/test/2_TestMeetingDataInterface.html#testupdateMeeting">testupdateMeeting</a></td><td>Success</td><td></td><td>0.049</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="sql/junit/test/2_TestMeetingDataInterface.html">TestMeetingDataInterface</a></td><td><a name="testgetLastMeetingID"></a><a href="sql/junit/test/2_TestMeetingDataInterface.html#testgetLastMeetingID">testgetLastMeetingID</a></td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="sql/junit/test/2_TestMeetingDataInterface.html">TestMeetingDataInterface</a></td><td><a name="testcheckLastMeeting"></a><a href="sql/junit/test/2_TestMeetingDataInterface.html#testcheckLastMeeting">testcheckLastMeeting</a></td><td>Success</td><td></td><td>0.005</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="sql/junit/test/3_TestUserIndentifyInterface.html">TestUserIndentifyInterface</a></td><td><a name="testcheckUser"></a><a href="sql/junit/test/3_TestUserIndentifyInterface.html#testcheckUser">testcheckUser</a></td><td>Failure</td><td>expected:&lt;1&gt; but was:&lt;-1&gt;<br>
+<br>
+<code>junit.framework.AssertionFailedError: expected:&lt;1&gt; but was:&lt;-1&gt;<br>	at sql.junit.test.TestUserIndentifyInterface.testcheckUser(Unknown Source)<br>
+</code></td><td>0.342</td>
+</tr>
+</table>
+</body>
+</html>

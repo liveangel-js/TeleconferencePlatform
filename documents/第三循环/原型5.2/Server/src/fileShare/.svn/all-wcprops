@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/team26/!svn/ver/273/trunk/Server/src/fileShare
+END
+FileTransportServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/team26/!svn/ver/273/trunk/Server/src/fileShare/FileTransportServer.java
+END
+IFileTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/team26/!svn/ver/262/trunk/Server/src/fileShare/IFileTransport.java
+END
+MyLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/team26/!svn/ver/262/trunk/Server/src/fileShare/MyLog.java
+END
+FileTransportClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/team26/!svn/ver/262/trunk/Server/src/fileShare/FileTransportClient.java
+END

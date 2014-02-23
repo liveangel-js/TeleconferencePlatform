@@ -1,0 +1,20 @@
+Started by an SCM change
+Updating http://202.119.48.42/svn/team26 revision: 2012-6-4 17:51:41 depth:infinity ignoreExternals: false
+D         trunk\Server\mysql-connector-java-5.1.15-bin.jar
+U         trunk\Server\.classpath
+A         trunk\Server\lib\mysql-connector-java-5.1.15-bin.jar
+U         trunk\Server\src\sql\junit\test\TestMeetingDataInterface.java
+A         trunk\Server\src\sql\junit\test\TestUserIndentifyInterface.java
+U         trunk\Client\image\save.png
+U         trunk\Client\image\association.png
+AU        trunk\Client\image\saveAs.png
+U         trunk\Client\image\newBoard.png
+U         trunk\Client\image\composition.PNG
+AU        trunk\Client\image\generalization.PNG
+AU        trunk\Client\image\node.PNG
+U         trunk\Client\src\board\PaintBoard.java
+U         trunk\Client\src\view\ChatPanel.java
+At revision 660
+FATAL: Unable to find build script at D:\Hudson\jobs\MeetingClient\workspace\build.xml
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0m[DEBUG] Skipping watched dependency update for build: MeetingClient #43 due to result: FAILURE
+Finished: FAILURE

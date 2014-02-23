@@ -1,0 +1,147 @@
+Started by user anonymous
+Checking out a fresh workspace because there's no workspace at D:\Hudson\jobs\MeetingClient\workspace
+Cleaning workspace D:\Hudson\jobs\MeetingClient\workspace
+Checking out http://202.119.48.42/svn/team26/trunk/Client revision: 2012-5-31 17:06:51 depth:infinity ignoreExternals: false
+A         .classpath
+A         image
+AU        image\note-connector.png
+AU        image\save.png
+AU        image\oval.png
+AU        image\open.png
+AU        image\newBoard.png
+AU        image\component.png
+AU        image\delete.png
+AU        image\composition.PNG
+AU        image\rectangle.png
+AU        image\undo.png
+AU        image\note.png
+AU        image\class.png
+AU        image\actor.png
+AU        image\word.png
+AU        image\roundrectangle.png
+AU        image\association.png
+AU        image\dependency.png
+AU        image\timeShape.PNG
+AU        image\eraser.png
+AU        image\realization.png
+AU        image\line.png
+AU        image\aggregation.png
+AU        image\mousepointer.png
+AU        image\initial.png
+AU        image\inheritance.png
+AU        image\redo.png
+AU        image\finalState.png
+AU        image\pensil.png
+AU        image\package.png
+A         config.ini
+A         .project
+A         lib
+AU        lib\junit-4.5.jar
+A         download
+A         download\112.txt
+A         download\111111.txt
+A         src
+A         src\board
+A         src\board\MyActorShape.java
+A         src\board\MyPensil.java
+A         src\board\MyStartState.java
+A         src\board\MyBlackCircle.java
+A         src\board\MyCompoShape.java
+A         src\board\MyGeneShape.java
+A         src\board\ImgData.java
+A         src\board\MyAggrShape.java
+A         src\board\MyOval.java
+A         src\board\MyRectangle.java
+A         src\board\MyFont.java
+A         src\board\MyNodeShape.java
+A         src\board\MyEndState.java
+A         src\board\MyRoundRectangle.java
+A         src\board\MyPackageShape.java
+A         src\board\PaintBoard.java
+A         src\board\MyTimeShape.java
+A         src\board\MyEraser.java
+A         src\board\MyUsageShape.java
+A         src\board\MyClassShape.java
+A         src\board\MyAssoShape.java
+A         src\board\MyLine.java
+A         src\rmi
+A         src\rmi\server
+A         src\rmi\server\interfaces
+A         src\rmi\server\interfaces\FileShareService.java
+A         src\rmi\server\interfaces\MessageService.java
+A         src\rmi\server\interfaces\LoggingService.java
+A         src\rmi\server\interfaces\MemberControlInterface.java
+A         src\rmi\server\interfaces\MeetingControlService.java
+A         src\rmi\server\interfaces\PaintSender.java
+A         src\rmi\server\interfaces\OrderControlInterface.java
+A         src\rmi\client
+A         src\rmi\client\interfaces
+A         src\rmi\client\interfaces\PaintReceiver.java
+A         src\rmi\client\interfaces\OrderRecieverInterface.java
+A         src\rmi\client\interfaces\MessageReciever.java
+A         src\data
+A         src\data\Name.java
+A         src\data\ShapeModel.java
+A         src\data\MeetingInfo.java
+A         src\data\Message.java
+A         src\data\OrderInfo.java
+A         src\data\Point.java
+A         src\manager
+A         src\manager\ClientManager.java
+A         src\manager\ServiceManager.java
+A         src\view
+A         src\view\ChatPanel.java
+A         src\view\MainFrame.java
+A         src\view\MainFrame.form
+A         src\view\FileSharePanel.java
+A         src\view\Share.java
+A         src\view\Share.form
+A         src\view\AboutFrame.java
+A         src\view\Logging.java
+A         src\view\AboutFrame.form
+A         src\view\Logging.form
+AU        src\view\DRG.jpg
+A         src\logic
+A         src\logic\MeetingManage.java
+A         src\logic\interfaces
+A         src\logic\interfaces\FileShareLogic.java
+A         src\logic\interfaces\ChatLogic.java
+A         src\logic\voiceClientTry.java
+A         src\logic\VoiceClient.java
+A         src\logic\LoginLogic.java
+A         src\logic\Playback.java
+A         src\logic\OrderClient.java
+A         src\logic\implement
+A         src\logic\implement\ChatLogicImp.java
+A         src\logic\implement\FileShareLogicImp.java
+A         src\logic\OrderChoose.java
+A         src\logic\AudioInfo.java
+A         src\logic\Setting.java
+A         src\logic\Record.java
+A         bin
+A         .settings
+A         .settings\org.eclipse.jdt.core.prefs
+A         build.xml
+At revision 607
+no revision recorded for http://202.119.48.42/svn/team26/trunk/Client in the previous build
+[workspace] $ cmd.exe /C '"D:\ANT\bin\ant.bat -file build.xml && exit %%ERRORLEVEL%%"'
+Buildfile: D:\Hudson\jobs\MeetingClient\workspace\build.xml
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minit:
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingClient\workspace\build
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcompile:
+    [javac] Compiling 60 source files to D:\Hudson\jobs\MeetingClient\workspace\build
+    [javac] ◊¢“‚£∫ƒ≥–© ‰»ÎŒƒº˛ π”√ªÚ∏≤∏«¡À“—π˝ ±µƒ API°£
+    [javac] ◊¢“‚£∫“™¡ÀΩ‚œÍœ∏–≈œ¢£¨«Î π”√ -Xlint:deprecation ÷ÿ–¬±‡“Î°£
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mdist:
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingClient\workspace\dist\lib
+      [jar] Building jar: D:\Hudson\jobs\MeetingClient\workspace\dist\lib\test-20120531.jar
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 3 seconds
+Recording test results
+No test report files were found. Configuration error?
+[DEBUG] Skipping watched dependency update for build: MeetingClient #16 due to result: FAILURE
+Finished: FAILURE

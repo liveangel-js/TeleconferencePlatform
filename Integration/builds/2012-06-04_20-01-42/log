@@ -1,0 +1,15 @@
+Started by user anonymous
+Updating http://202.119.48.42/svn/team26/trunk/Server revision: 2012-6-4 20:01:42 depth:infinity ignoreExternals: false
+At revision 676
+no change for http://202.119.48.42/svn/team26/trunk/Server since the previous build
+[workspace] $ cmd.exe /C '"D:\ANT\bin\ant.bat -file build.xml && exit %%ERRORLEVEL%%"'
+Buildfile: D:\Hudson\jobs\MeetingSystem\workspace\build.xml
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD FAILED
+D:\Hudson\jobs\MeetingSystem\workspace\build.xml:12: Cannot find D:\Hudson\jobs\MeetingSystem\workspace\nbproject\build-impl.xml imported from D:\Hudson\jobs\MeetingSystem\workspace\build.xml
+
+Total time: 0 seconds
+Recording test results
+Skipping sonar analysis due to bad build status FAILURE
+[DEBUG] Skipping watched dependency update for build: MeetingSystem #57 due to result: FAILURE
+Finished: FAILURE

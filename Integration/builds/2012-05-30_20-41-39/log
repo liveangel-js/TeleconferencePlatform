@@ -1,0 +1,9 @@
+Started by an SCM change
+Started by user anonymous
+Updating http://202.119.48.42/svn/team26/trunk/Server revision: 2012-5-30 20:41:39 depth:infinity ignoreExternals: false
+U         src\rmi\server\implement\FileShareServiceImp.java
+At revision 594
+WARNING: clock of the subversion server appears to be out of sync. This can result in inconsistent check out behavior.
+FATAL: Unable to find build script at D:\Hudson\jobs\MeetingSystem\workspace\build.xml
+[8mha:AAAAWB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0m[DEBUG] Skipping watched dependency update for build: MeetingSystem #100 due to result: FAILURE
+Finished: FAILURE

@@ -1,0 +1,20 @@
+Started by an SCM change
+Started by user anonymous
+Updating http://202.119.48.42/svn/team26/trunk/Server revision: 2012-5-25 20:20:00 depth:infinity ignoreExternals: false
+D         src\sql\test\sqlcommand.txt
+A         src\sql\test\sqlcommand.txt
+U         src\sql\Interface\BoardElementDataInterface.java
+U         src\sql\SQLConnecter.java
+U         src\sql\BoardRecordSQL.java
+U         src\Server\MeetingServer.java
+U         src\Server\meetingControl.java
+U         src\rmi\server\interfaces\MeetingControlService.java
+U         src\rmi\server\interfaces\PaintSender.java
+U         src\rmi\server\implement\PaintSendImp.java
+U         src\rmi\client\interfaces\PaintReceiver.java
+U         src\voiceServer\Mixer.java
+A         src\voiceServer\AudioInfo.java
+At revision 508
+WARNING: clock of the subversion server appears to be out of sync. This can result in inconsistent check out behavior.
+[DEBUG] Skipping watched dependency update; build not configured with trigger: MeetingSystem #96
+Finished: SUCCESS

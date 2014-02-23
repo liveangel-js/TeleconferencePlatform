@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/team26/!svn/ver/276/trunk/Client/src/board
+END
+MyActorShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/team26/!svn/ver/265/trunk/Client/src/board/MyActorShape.java
+END
+PaintReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/team26/!svn/ver/265/trunk/Client/src/board/PaintReceiver.java
+END
+MyCompoShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/team26/!svn/ver/265/trunk/Client/src/board/MyCompoShape.java
+END
+MyBlackCircle.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/team26/!svn/ver/265/trunk/Client/src/board/MyBlackCircle.java
+END
+ImgData.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/team26/!svn/ver/265/trunk/Client/src/board/ImgData.java
+END
+PaintReceiverImp.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/team26/!svn/ver/265/trunk/Client/src/board/PaintReceiverImp.java
+END
+MyOval.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/team26/!svn/ver/265/trunk/Client/src/board/MyOval.java
+END
+MyAggrShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/265/trunk/Client/src/board/MyAggrShape.java
+END
+MyRectangle.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/265/trunk/Client/src/board/MyRectangle.java
+END
+MyNodeShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/265/trunk/Client/src/board/MyNodeShape.java
+END
+PaintSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/265/trunk/Client/src/board/PaintSender.java
+END
+ShapeModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/team26/!svn/ver/265/trunk/Client/src/board/ShapeModel.java
+END
+MyRoundRectangle.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/team26/!svn/ver/265/trunk/Client/src/board/MyRoundRectangle.java
+END
+MyPackageShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/team26/!svn/ver/265/trunk/Client/src/board/MyPackageShape.java
+END
+PaintBoard.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/team26/!svn/ver/276/trunk/Client/src/board/PaintBoard.java
+END
+MyTimeShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/265/trunk/Client/src/board/MyTimeShape.java
+END
+Point.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/team26/!svn/ver/265/trunk/Client/src/board/Point.java
+END
+PaintSendImp.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/team26/!svn/ver/265/trunk/Client/src/board/PaintSendImp.java
+END
+MyClassShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/team26/!svn/ver/265/trunk/Client/src/board/MyClassShape.java
+END
+MyAssoShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/team26/!svn/ver/265/trunk/Client/src/board/MyAssoShape.java
+END
+ShapeList.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/team26/!svn/ver/265/trunk/Client/src/board/ShapeList.java
+END
+MyLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/team26/!svn/ver/265/trunk/Client/src/board/MyLine.java
+END

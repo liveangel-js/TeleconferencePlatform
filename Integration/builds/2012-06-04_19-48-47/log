@@ -1,0 +1,68 @@
+Started by an SCM change
+Updating http://202.119.48.42/svn/team26/trunk/Server revision: 2012-6-4 19:48:47 depth:infinity ignoreExternals: false
+U         src\sql\UsersManager.java
+U         src\Server\MeetingServer.java
+U         src\Server\memberControl.java
+U         src\Server\meetingControl.java
+U         src\rmi\server\interfaces\MemberControlInterface.java
+U         src\rmi\server\interfaces\MeetingControlService.java
+U         src\data\Name.java
+U         src\voiceServer\Mixer.java
+U         src\voiceServer\AudioInfo.java
+At revision 671
+[workspace] $ cmd.exe /C '"D:\ANT\bin\ant.bat -file build.xml && exit %%ERRORLEVEL%%"'
+Buildfile: D:\Hudson\jobs\MeetingSystem\workspace\build.xml
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minit:
+   [delete] Deleting directory D:\Hudson\jobs\MeetingSystem\workspace\build
+   [delete] Deleting directory D:\Hudson\jobs\MeetingSystem\workspace\report
+   [delete] Deleting directory D:\Hudson\jobs\MeetingSystem\workspace\dist
+    [mkdir] Created dir: D:\Hudson\jobs\MeetingSystem\workspace\build
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcompile:
+    [javac] Compiling 87 source files to D:\Hudson\jobs\MeetingSystem\workspace\build
+    [javac] D:\Hudson\jobs\MeetingSystem\workspace\src\Server\memberControl.java:14: ÕÒ²»µ½·ûºÅ
+    [javac] ·ûºÅ£º Àà MeetingReceiverInterface
+    [javac] Î»ÖÃ£º Èí¼þ°ü rmi.client.interfaces
+    [javac] import rmi.client.interfaces.MeetingReceiverInterface;
+    [javac]                             ^
+    [javac] D:\Hudson\jobs\MeetingSystem\workspace\src\rmi\server\interfaces\MemberControlInterface.java:9: ÕÒ²»µ½·ûºÅ
+    [javac] ·ûºÅ£º Àà MeetingReceiverInterface
+    [javac] Î»ÖÃ£º Èí¼þ°ü rmi.client.interfaces
+    [javac] import rmi.client.interfaces.MeetingReceiverInterface;
+    [javac]                             ^
+    [javac] D:\Hudson\jobs\MeetingSystem\workspace\src\data\Name.java:8: ÕÒ²»µ½·ûºÅ
+    [javac] ·ûºÅ£º Àà MeetingReceiverInterface
+    [javac] Î»ÖÃ£º Èí¼þ°ü rmi.client.interfaces
+    [javac] import rmi.client.interfaces.MeetingReceiverInterface;
+    [javac]                             ^
+    [javac] D:\Hudson\jobs\MeetingSystem\workspace\src\Server\memberControl.java:59: ÕÒ²»µ½·ûºÅ
+    [javac] ·ûºÅ£º Àà MeetingReceiverInterface
+    [javac] Î»ÖÃ£º Àà Server.memberControl
+    [javac]     public void refreshMember(String name , MeetingReceiverInterface mri) throws RemoteException {
+    [javac]                                             ^
+    [javac] D:\Hudson\jobs\MeetingSystem\workspace\src\rmi\server\interfaces\MemberControlInterface.java:19: ÕÒ²»µ½·ûºÅ
+    [javac] ·ûºÅ£º Àà MeetingReceiverInterface
+    [javac] Î»ÖÃ£º ½Ó¿Ú rmi.server.interfaces.MemberControlInterface
+    [javac]     public void refreshMember(String name, MeetingReceiverInterface mri)throws RemoteException;
+    [javac]                                            ^
+    [javac] D:\Hudson\jobs\MeetingSystem\workspace\src\data\Name.java:17: ÕÒ²»µ½·ûºÅ
+    [javac] ·ûºÅ£º Àà MeetingReceiverInterface
+    [javac] Î»ÖÃ£º Àà data.Name
+    [javac]     public MeetingReceiverInterface rmi;
+    [javac]            ^
+    [javac] D:\Hudson\jobs\MeetingSystem\workspace\src\data\Name.java:18: ÕÒ²»µ½·ûºÅ
+    [javac] ·ûºÅ£º Àà MeetingReceiverInterface
+    [javac] Î»ÖÃ£º Àà data.Name
+    [javac]     public Name(String nn , MeetingReceiverInterface rmi) {
+    [javac]                             ^
+    [javac] 7 ´íÎó
+
+[8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD FAILED
+D:\Hudson\jobs\MeetingSystem\workspace\build.xml:41: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Recording test results
+Skipping sonar analysis due to bad build status FAILURE
+[DEBUG] Skipping watched dependency update for build: MeetingSystem #52 due to result: FAILURE
+Finished: FAILURE
